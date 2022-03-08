@@ -92,7 +92,7 @@ $ java -jar test.jar -XX:+UseG1GC -XX:+HeapDumpOnOutOfMemoryError -Xms128M -Xmx2
 * 设置 JVM 参数  
 可以在启动 java 程序的时候设置 JVM 的参数，如`-Xms250M -Xmx250M`设置 JVM 的最小最大堆内存  
 
-> 参考  
-> <a link="https://juejin.cn/post/7028861376353271816">java -jar 和 java -cp 的区别</a>  
-> <a link="https://ningg.top/java-command/">java 命令详解</a>   
-> <a link="https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html#BABDJJFI">Java document - Launches a Java application.</a>
+> 参考
+> [java -jar 和 java -cp 的区别](https://juejin.cn/post/7028861376353271816)
+> [java 命令详解](https://ningg.top/java-command/)
+> [Java document - Launches a Java application](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html#BABDJJFI)
