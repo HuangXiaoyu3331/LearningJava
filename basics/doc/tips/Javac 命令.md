@@ -65,9 +65,9 @@ $ java Main
 ```
 发现执行的时候报了无法加载主类的 error，这是因为 Main 类是定义在 com.hxy.learning.java 下的，如果要执行该类，需要将 Main.class 放到 /com/hxy/learning/java 目录下
 ```
-$ mkdir -p ./com/hxy/learning/java/agent 
-$ mv Main.class ./com/hxy/learning/java/agent/
-$ java com.hxy.learning.java.agent.Main
+$ mkdir -p ./com/hxy/learning/java 
+$ mv Main.class ./com/hxy/learning/java/
+$ java com.hxy.learning.java.Main
 hello world 
 ```
 > 这是因为 java 类是通过包名+类名唯一确定的  
